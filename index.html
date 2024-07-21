@@ -7,6 +7,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class ="navbar "><!-- Fixed Navigation Bar all buttons on right side-->
+        <div class="svg-container">
+            <img src="navlogo.svg" alt="Logo" id="mySVG">
+            <div id="output">
+                <span id="word"></span>
+            </div>
+
+        </div>
+            <!-- Desktop view navigation -->
+            <div class="nav-desktop ">
+                <a href="index.html" id="home">Home</a>
+                <a href="event.html">Events</a>
+                <a href="projects.html">Projects</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="members.html">Members</a>
+                <a href="contact.html">Reach Us</a>
+            </div>
+            <!-- Responsive view navigation -->
+            <div class="nav-responsive" id="myNav">
+                <a href="index.html">Home</a>
+                <a href="event.html">Events</a>
+                <a href="projects.html">Projects</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="members.html">Members</a>
+                <a href="contact.html">Reach Us</a>
+            </div>
+                <div class="container" onclick="toggleNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+   
     <div class="circle-container">
         <div class="circle"></div>
         <div class="circle"></div>
@@ -32,10 +66,8 @@
         <div class="circle"></div>
     </div>
     <div class="content soc">
-        <h1>Welcome to My Website</h1>
-        <p>This is some example content. Scroll to see the background stay static while the content moves.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan, libero a facilisis varius, lectus risus luctus augue, eget dignissim eros nulla nec velit. Curabitur tincidunt lacinia felis, ut volutpat sapien consequat sit amet.</p>
-        <p>Suspendisse potenti. Integer id dui eget velit tincidunt ultricies. Nulla facilisi. Vestibulum vitae sapien dapibus, tincidunt ipsum sed, volutpat magna. Ut lacinia varius est, sed elementum arcu vehicula non. Fusce egestas suscipit tortor a aliquet.</p>
-    </div>
+        </div>
+
+<script src="script.js"></script>
 </body>
 </html>
