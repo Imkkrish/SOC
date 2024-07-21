@@ -30,7 +30,7 @@ header h1, footer p {
 }
 
 .container {
-    width: 90%;
+    width: 95%;
     margin: 10px auto;
 }
 
@@ -79,23 +79,27 @@ p{
     margin:2px;
 }
 a {
-    color: #007bff;
+    color: #000000;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
-
+.embedded-tags {
+overflow-y: auto;
+max-height: 800px; /* Adjust max height as needed */
+}
 .embedded-content {
-    overflow-y: auto;
-    height: 600px; /* Adjust max height as needed */
+    max-height: 600px; /* Adjust max height as needed */
+    height: 420px;
 }
 
 iframe {
     width: 100%;
     height: 100%;
     border: none;
+    background-color: #3e2c2c ;
 }
 
 .student-body h2 {
