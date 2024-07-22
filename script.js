@@ -8,7 +8,7 @@ window.addEventListener('scroll', function() {
       rocket.style.left = '0px';
 
       // Calculate rotation incrementally
-      if (scrollPosition < 320) {
+      if (scrollPosition < 300) {
           rocket.style.transform = 'rotate(-39deg)';
       } else if (scrollPosition < 440) {
           rocket.style.transform = 'rotate(-30deg)';
@@ -21,8 +21,8 @@ window.addEventListener('scroll', function() {
       }
   } else {
       // Move the rocket to the right after 500px scroll and keep the rotation fixed
-      rocket.style.bottom = '500px'; // Fixed bottom position after 500px scroll
-      rocket.style.left = (scrollPosition - 500) + 'px';
+      rocket.style.bottom = '300px'; // Fixed bottom position after 500px scroll
+      rocket.style.left = (scrollPosition - 300) + 'px';
       rocket.style.transform = 'rotate(0deg)'; // Final rotation
   }
 });
